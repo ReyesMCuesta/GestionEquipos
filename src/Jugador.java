@@ -4,12 +4,8 @@ public class Jugador {
 	private int edad;
 	private String idioma;
 	
-	public Jugador (String nombre, int edad, String idioma) {
-		this.setNombreJugador(nombre);
-		this.setEdad(edad);
-		this.setIdioma(idioma);
-		
-		
+	public Jugador () {
+			
 		}
 	
 	public void setNombreJugador(String nombre) {
