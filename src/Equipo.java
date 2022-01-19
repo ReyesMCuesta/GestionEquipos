@@ -4,9 +4,7 @@ public class Equipo {
 	private int ranking;
 	
 	
-	public Equipo (String nombreEquipo, int ranking) {
-		this.setNombreEquipo(nombreEquipo);
-		this.setRanking(ranking);
+	public Equipo () {
 	}
 	
 	
