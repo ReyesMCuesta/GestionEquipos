@@ -14,7 +14,7 @@ public class Equipo {
 		}
 	}
 	public void setRanking(int ranking) {
-		if(ranking<10) {
+		if(ranking>0 && ranking<10) {
 			this.ranking = ranking;
 		}
 	}
