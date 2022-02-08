@@ -17,6 +17,11 @@ public class Equipo {
 		this.ranking = ranking;
 	}
 	
+	public String categoriaEquipo() {
+		String categoria = "";
+		return categoria;
+	}
+	
 	public String getNombreEquipo() {
 		return nombreEquipo;
 	}
