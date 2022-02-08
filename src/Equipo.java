@@ -18,7 +18,8 @@ public class Equipo {
 	}
 	
 	public String categoriaEquipo() {
-		return null;
+		String categoria = "";
+		return categoria;
 	}
 	
 	public String getNombreEquipo() {
