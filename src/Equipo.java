@@ -14,7 +14,9 @@ public class Equipo {
 		}
 	}
 	public void setRanking(int ranking) {
-		this.ranking = ranking;
+		if(ranking>0) {
+			this.ranking = ranking;
+		}
 	}
 	
 	public String categoriaEquipo() {
