@@ -14,7 +14,7 @@ public class Equipo {
 		}
 	}
 	public void setRanking(int ranking) {
-		//code here
+		this.ranking = ranking;
 	}
 	
 	public String getNombreEquipo() {
