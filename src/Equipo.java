@@ -9,10 +9,17 @@ public class Equipo {
 	
 	
 	public void setNombreEquipo(String nombreEquipo) {
-		//code here
+		if(nombreEquipo!=null && nombreEquipo.length()<20) {
+			this.nombreEquipo = nombreEquipo;
+		}
 	}
 	public void setRanking(int ranking) {
-		//code here
+		this.ranking = ranking;
+	}
+	
+	public String categoriaEquipo() {
+		String categoria = "";
+		return categoria;
 	}
 	
 	public String getNombreEquipo() {
