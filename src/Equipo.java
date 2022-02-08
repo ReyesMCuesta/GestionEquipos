@@ -17,6 +17,10 @@ public class Equipo {
 		//code here
 	}
 	
+	public String categoriaEquipo() {
+		return null;
+	}
+	
 	public String getNombreEquipo() {
 		return nombreEquipo;
 	}
