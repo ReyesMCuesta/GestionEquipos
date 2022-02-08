@@ -1,5 +1,6 @@
 
 public class Jugador {
+	//comentario de prueba
 	private String nombre;
 	private int edad;
 	private String idioma;
